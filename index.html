@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Super Fitness 2016 – Ercolano | Trasforma il Tuo Corpo</title>
+<meta name="description" content="Super Fitness 2016 ad Ercolano. Programmi personalizzati, dimagrimento, tonificazione, Pilates. Risultati reali con supporto costante. Provaci gratis!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <span class="nav-logo-main">Super Fitness</span>
+    <span class="nav-logo-sub">2016 · Ercolano</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#filosofia">Chi Siamo</a></li>
+    <li><a href="#servizi">Servizi</a></li>
+    <li><a href="#classi">Corsi</a></li>
+    <li><a href="#testimonianze">Recensioni</a></li>
+    <li><a href="#contatti">Contatti</a></li>
+  </ul>
+  <a href="https://wa.me/390819526132?text=Ciao!%20Vorrei%20maggiori%20informazioni%20su%20Super%20Fitness%202016" class="nav-cta" target="_blank">Prova Gratuita →</a>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#filosofia" onclick="toggleMenu()">Chi Siamo</a>
+  <a href="#servizi" onclick="toggleMenu()">Servizi</a>
+  <a href="#classi" onclick="toggleMenu()">Corsi</a>
+  <a href="#testimonianze" onclick="toggleMenu()">Recensioni</a>
+  <a href="#contatti" onclick="toggleMenu()">Contatti</a>
+  <a href="https://wa.me/390819526132?text=Ciao!%20Vorrei%20maggiori%20informazioni" target="_blank" style="color:var(--red)">📲 Scrivici su WhatsApp</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-diagonal"></div>
+  <div class="hero-accent-line"></div>
+  <div class="hero-number">SF</div>
+  <div class="hero-content">
+    <div class="hero-eyebrow reveal">Ercolano · Dal 2016</div>
+    <h1 class="hero-h1 reveal delay-1">
+      Trasforma<br>il tuo corpo
+      <span class="accent">Risultati reali.</span>
+    </h1>
+    <p class="hero-sub reveal delay-2">
+      Programmi <strong>personalizzati</strong>, supporto costante e un ambiente dove ogni persona conta. Non sei solo nel tuo percorso — <strong>siamo con te ad ogni passo.</strong>
+    </p>
+    <div class="hero-ctas reveal delay-3">
+      <a href="https://wa.me/390819526132?text=Ciao!%20Vorrei%20prenotare%20una%20prova%20gratuita%20a%20Super%20Fitness%202016" target="_blank" class="btn-primary"> Inizia Gratis</a>
+      <a href="#servizi" class="btn-outline">Scopri i Servizi</a>
+    </div>
+    <div class="hero-stats reveal delay-4">
+      <div class="hero-stat">
+        <span class="hero-stat-num">100<span>%</span></span>
+        <span class="hero-stat-label">Recensioni Positive</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">8<span>+</span></span>
+        <span class="hero-stat-label">Anni di Esperienza</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num" id="counter">500<span>+</span></span>
+        <span class="hero-stat-label">Iscritti Soddisfatti</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FILOSOFIA -->
+<section id="filosofia">
+  <div class="filosofia-grid">
+    <div class="filosofia-left">
+      <div class="section-eyebrow reveal-left">La nostra filosofia</div>
+      <h2 class="section-title reveal-left delay-1">La <span class="red">costanza</span><br>batte la perfezione.</h2>
+      <p class="section-lead reveal-left delay-2">Crediamo che i veri risultati non arrivino dalla perfezione assoluta, ma dalla <strong style="color:var(--white-pure)">continuità e dalla dedizione quotidiana</strong>. Da oltre 8 anni aiutiamo uomini e donne ad Ercolano a raggiungere i propri obiettivi fisici in un ambiente accogliente, motivante e senza giudizi.</p>
+      <div class="filosofia-quote reveal-left delay-3">
+        <p>"Non ti lasciamo mai solo nel tuo percorso. Monitoraggio costante, supporto reale, risultati concreti."</p>
+      </div>
+    </div>
+    <div class="filosofia-right">
+      <div class="value-card reveal delay-1">
+    
+        <div>
+          <h4>Risultati Concreti</h4>
+          <p>Ogni programma è costruito per portare risultati reali e misurabili, non promesse vuote.</p>
+        </div>
+      </div>
+      <div class="value-card reveal delay-2">
+        
+        <div>
+          <h4>Supporto Personalizzato</h4>
+          <p>Ogni persona è unica. Il tuo programma è cucito su misura per il tuo corpo e i tuoi obiettivi.</p>
+        </div>
+      </div>
+      <div class="value-card reveal delay-3">
+       
+        <div>
+          <h4>Monitoraggio Costante</h4>
+          <p>Tracciamo i tuoi progressi passo dopo passo per aggiustare e ottimizzare il percorso.</p>
+        </div>
+      </div>
+      <div class="value-card reveal delay-4">
+       
+        <div>
+          <h4>Ambiente Accogliente</h4>
+          <p>Una community vera, dove ci si aiuta, si ride insieme e si festeggia ogni risultato.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSO -->
+<section id="processo">
+  <div class="processo-header">
+    <div class="section-eyebrow reveal">Il tuo percorso</div>
+    <h2 class="section-title reveal delay-1">Come funziona la tua <span class="red">trasformazione</span></h2>
+    <p class="section-lead reveal delay-2">Un metodo semplice, chiaro e testato. Inizia oggi, trasformati domani.</p>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card reveal delay-1">
+      <div class="step-num">01</div>
+      <h4>Valutazione Iniziale</h4>
+      <p>Ascoltiamo i tuoi obiettivi, analizziamo il tuo corpo e lo stato fisico di partenza. Zero giudizi.</p>
+    </div>
+    <div class="step-card reveal delay-2">
+      <div class="step-num">02</div>
+      <h4>Programma Su Misura</h4>
+      <p>Creiamo una scheda allenamento personalizzata pensata per i tuoi obiettivi specifici e la tua vita.</p>
+    </div>
+    <div class="step-card reveal delay-3">
+      <div class="step-num">03</div>
+      <h4>Allenamento e Supporto</h4>
+      <p>Ti alleni con la guida dei nostri istruttori. Non sei mai lasciato a te stesso in palestra.</p>
+    </div>
+    <div class="step-card reveal delay-4">
+      <div class="step-num">04</div>
+      <h4>Progressi e Risultati</h4>
+      <p>Monitoriamo i tuoi avanzamenti e aggiustiamo il programma per massimizzare i tuoi risultati.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIZI -->
+<section id="servizi">
+  <div class="servizi-header">
+    <div>
+      <div class="section-eyebrow reveal-left">Cosa offriamo</div>
+      <h2 class="section-title reveal-left delay-1">I nostri <span class="red">servizi</span></h2>
+    </div>
+    <p class="section-lead reveal-right">Un'offerta completa pensata per raggiungere ogni obiettivo, dal dimagrimento alla tonificazione, dalla forza al benessere generale.</p>
+  </div>
+  <div class="servizi-grid">
+    <div class="service-card reveal delay-1">
+     
+      <h3>Programmi Personalizzati</h3>
+      <p>Schede allenamento create specificamente per te, i tuoi obiettivi e il tuo livello di partenza.</p>
+      <span class="service-tag">→ Il nostro fiore all'occhiello</span>
+    </div>
+    <div class="service-card reveal delay-2">
+      
+      <h3>Dimagrimento e Fat Loss</h3>
+      <p>Protocolli specifici per perdere grasso mantenendo il tono muscolare. Risultati visibili in poche settimane.</p>
+      <span class="service-tag">→ Programma intensivo</span>
+    </div>
+    <div class="service-card reveal delay-3">
+     
+      <h3>Tonificazione Corpo</h3>
+      <p>Scolpisci e tonicizza ogni zona del corpo. Perfetto per chi vuole migliorare la composizione corporea.</p>
+      <span class="service-tag">→ Ideale per lei e lui</span>
+    </div>
+    <div class="service-card reveal delay-1">
+     
+      <h3>Glute Training</h3>
+      <p>Allenamento specifico per glutei e gambe con tecniche avanzate di volume e progressione.</p>
+      <span class="service-tag">→ Specializzazione femminile</span>
+    </div>
+    <div class="service-card reveal delay-2">
+    
+      <h3>Forza e Performance</h3>
+      <p>Aumenta la tua forza e migliora le performance atletiche con allenamenti strutturati e progressivi.</p>
+      <span class="service-tag">→ Powerlifting e functional</span>
+    </div>
+    <div class="service-card reveal delay-3">
+      
+      <h3>Ricomposizione Corporea</h3>
+      <p>Perdi grasso e guadagna muscolo contemporaneamente con i nostri protocolli scientificamente fondati.</p>
+      <span class="service-tag">→ Trasformazione completa</span>
+    </div>
+  </div>
+</section>
+
+<!-- CLASSI -->
+<section id="classi">
+  <div class="classi-header">
+    <div class="section-eyebrow reveal">Corsi e classi</div>
+    <h2 class="section-title reveal delay-1">Allenati in <span class="red">gruppo</span><br>o da solo — scegli tu</h2>
+    <p class="section-lead reveal delay-2" style="margin:0 auto">Dalle classi collettive all'allenamento individuale, abbiamo tutto ciò di cui hai bisogno per raggiungere i tuoi obiettivi.</p>
+  </div>
+  <div class="classi-grid">
+    <div class="classe-card reveal delay-1">
+    
+      <div class="classe-border"></div>
+      <div class="classe-content">
+        <span class="classe-dot"></span>
+        <h3>Pilates</h3>
+        <p>Migliora postura, flessibilità e forza del core in classi guidate con metodo autentico.</p>
+        <div class="classe-meta">
+          <span class="classe-badge">Tutti i livelli</span>
+          <span class="classe-badge">Piccoli gruppi</span>
+        </div>
+      </div>
+    </div>
+    <div class="classe-card reveal delay-2">
+      
+      <div class="classe-border"></div>
+      <div class="classe-content">
+        <span class="classe-dot"></span>
+        <h3>Functional Training</h3>
+        <p>Allenamenti ad alta intensità che migliorano forza, resistenza e coordinazione motoria.</p>
+        <div class="classe-meta">
+          <span class="classe-badge">Alta intensità</span>
+          <span class="classe-badge">Brucia calorie</span>
+        </div>
+      </div>
+    </div>
+    <div class="classe-card reveal delay-3">
+      
+      <div class="classe-border"></div>
+      <div class="classe-content">
+        <span class="classe-dot"></span>
+        <h3>Corsi di Gruppo</h3>
+        <p>Classi energiche e motivanti. L'allenamento in gruppo non è mai stato così efficace e divertente.</p>
+        <div class="classe-meta">
+          <span class="classe-badge">Community</span>
+          <span class="classe-badge">Motivazione 💪</span>
+        </div>
+      </div>
+    </div>
+    <div class="classe-card reveal delay-4">
+    
+      <div class="classe-border"></div>
+      <div class="classe-content">
+        <span class="classe-dot"></span>
+        <h3>Cardio & Fitness</h3>
+        <p>Sessioni dedicate al miglioramento della resistenza cardiovascolare e alla perdita di peso.</p>
+        <div class="classe-meta">
+          <span class="classe-badge">Fat burning</span>
+          <span class="classe-badge">Resistenza</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRASFORMAZIONI -->
+ <!----
+<section id="trasformazioni">
+  <div class="trasf-header">
+    <div class="section-eyebrow reveal">Le trasformazioni</div>
+    <h2 class="section-title reveal delay-1">I <span class="red">risultati</span> parlano<br>per noi</h2>
+    <p class="section-lead reveal delay-2" style="margin:0 auto">Storie reali di persone reali. Chi entra da noi con un obiettivo, esce con i risultati.</p>
+  </div>
+  <div class="trasf-grid">
+    <div class="trasf-card reveal delay-1">
+      <div class="trasf-visual">
+        <div class="trasf-half before">😔<span class="trasf-half-label">Prima</span></div>
+        <div class="trasf-half after">😍<span class="trasf-half-label">Dopo</span></div>
+        <div class="trasf-divider"></div>
+      </div>
+      <div class="trasf-info">
+        <h4>Martina, 28 anni — Dimagrimento</h4>
+        <p style="font-size:0.85rem;color:var(--gray);margin-top:4px">"Non pensavo di riuscirci. Oggi mi sento una persona nuova."</p>
+        <div class="trasf-stats">
+          <div class="trasf-stat"><span class="trasf-stat-num">−14kg</span><span class="trasf-stat-label">Persi in 4 mesi</span></div>
+          <div class="trasf-stat"><span class="trasf-stat-num">−12cm</span><span class="trasf-stat-label">Vita ridotta</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="trasf-card reveal delay-2">
+      <div class="trasf-visual">
+        <div class="trasf-half before">😔<span class="trasf-half-label">Prima</span></div>
+        <div class="trasf-half after">💪<span class="trasf-half-label">Dopo</span></div>
+        <div class="trasf-divider"></div>
+      </div>
+      <div class="trasf-info">
+        <h4>Marco, 35 anni — Massa e Definizione</h4>
+        <p style="font-size:0.85rem;color:var(--gray);margin-top:4px">"Da principiante assoluto a risultati che non avrei mai creduto."</p>
+        <div class="trasf-stats">
+          <div class="trasf-stat"><span class="trasf-stat-num">+8kg</span><span class="trasf-stat-label">Muscolo guadagnato</span></div>
+          <div class="trasf-stat"><span class="trasf-stat-num">−9%</span><span class="trasf-stat-label">Body fat</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="trasf-card reveal delay-3">
+      <div class="trasf-visual">
+        <div class="trasf-half before">😔<span class="trasf-half-label">Prima</span></div>
+        <div class="trasf-half after">🌟<span class="trasf-half-label">Dopo</span></div>
+        <div class="trasf-divider"></div>
+      </div>
+      <div class="trasf-info">
+        <h4>Giulia, 32 anni — Tonificazione</h4>
+        <p style="font-size:0.85rem;color:var(--gray);margin-top:4px">"Il Pilates e il glute training hanno cambiato il mio corpo completamente."</p>
+        <div class="trasf-stats">
+          <div class="trasf-stat"><span class="trasf-stat-num">−6kg</span><span class="trasf-stat-label">Grasso perso</span></div>
+          <div class="trasf-stat"><span class="trasf-stat-num">+100%</span><span class="trasf-stat-label">Autostima</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="trasf-note reveal">* Risultati individuali. I progressi variano in base all'impegno, alla costanza e alle caratteristiche personali di ciascuno.</p>
+</section>
+-->
+
+<!-- TESTIMONIANZE -->
+<section id="testimonianze">
+  <div class="testi-header">
+    <div class="section-eyebrow reveal">Le recensioni</div>
+    <h2 class="section-title reveal delay-1"><span class="red">100%</span> recensioni<br>positive</h2>
+    <p class="section-lead reveal delay-2" style="margin:0 auto">Non ci credi? Leggi cosa dicono le persone reali che si allenano con noi ogni giorno.</p>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card reveal delay-1">
+      <span class="testi-quote-mark">"</span>
+      <p class="testi-text">Super Fitness è la palestra migliore che abbia mai frequentato. Gli istruttori sono preparatissimi e ti seguono davvero passo dopo passo. In soli 3 mesi ho raggiunto risultati che non pensavo possibili!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">AL</div>
+        <div>
+          <div class="testi-name">Alessia L.</div>
+          <div class="testi-sub">Iscritta da 8 mesi</div>
+        </div>
+        <div class="testi-rating"><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card reveal delay-2">
+      <span class="testi-quote-mark">"</span>
+      <p class="testi-text">Ambiente fantastico, staff super disponibile. Ho perso 10 kg in 5 mesi con il programma personalizzato. La cosa che apprezzo di più è che non mi hanno mai lasciato solo nel percorso. Palestra consigliatissima!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">SR</div>
+        <div>
+          <div class="testi-name">Salvatore R.</div>
+          <div class="testi-sub">Iscritto da 1 anno</div>
+        </div>
+        <div class="testi-rating"><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card reveal delay-3">
+      <span class="testi-quote-mark">"</span>
+      <p class="testi-text">Ho provato tante palestre ma Super Fitness è unica. Il corso di Pilates mi ha cambiato la vita, e gli istruttori per il tonificamento sono stati incredibili. Mi sento finalmente bene nel mio corpo!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">MC</div>
+        <div>
+          <div class="testi-name">Maria C.</div>
+          <div class="testi-sub">Iscritta da 6 mesi</div>
+        </div>
+        <div class="testi-rating"><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card reveal delay-1">
+      <span class="testi-quote-mark">"</span>
+      <p class="testi-text">Dal primo giorno mi sono sentito a casa. Staff accogliente, attrezzatura ottima, programmi seri e ben strutturati. I risultati sono arrivati e continuo a migliorare ogni settimana. Grazie Super Fitness!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">GD</div>
+        <div>
+          <div class="testi-name">Giuseppe D.</div>
+          <div class="testi-sub">Iscritto da 2 anni</div>
+        </div>
+        <div class="testi-rating"><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card reveal delay-2">
+      <span class="testi-quote-mark">"</span>
+      <p class="testi-text">Prima di iscrivermi ero molto scettica. Ora, dopo 4 mesi, posso dire che è stata la scelta migliore della mia vita. Ho perso il peso che volevo e soprattutto mi sento forte e sicura di me!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">FP</div>
+        <div>
+          <div class="testi-name">Francesca P.</div>
+          <div class="testi-sub">Iscritta da 4 mesi</div>
+        </div>
+        <div class="testi-rating"><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card reveal delay-3">
+      <span class="testi-quote-mark">"</span>
+      <p class="testi-text">Il functional training e la scheda personalizzata sono stati perfetti per me. Ho guadagnato massa muscolare mantenendo il peso sotto controllo. Staff professionale e sempre disponibile. 10/10!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">AF</div>
+        <div>
+          <div class="testi-name">Antonio F.</div>
+          <div class="testi-sub">Iscritto da 14 mesi</div>
+        </div>
+        <div class="testi-rating"><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="review-bar reveal">
+    <div class="review-bar-item">
+      <div class="review-big">5<span>/5</span></div>
+      <div class="stars" style="margin:4px 0">★★★★★</div>
+      <div class="review-label">Valutazione Media</div>
+    </div>
+    <div style="width:1px;height:60px;background:rgba(255,255,255,0.1)"></div>
+    <div class="review-bar-item">
+      <div class="review-big">100<span>%</span></div>
+      <div class="review-label" style="margin-top:8px">Recensioni Positive</div>
+    </div>
+    <div style="width:1px;height:60px;background:rgba(255,255,255,0.1)"></div>
+    <div class="review-bar-item">
+      <div class="review-big">8<span>+ anni</span></div>
+      <div class="review-label" style="margin-top:8px">di Eccellenza</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA WHATSAPP -->
+<section id="cta-wa" style="padding:0">
+  <div class="cta-wa-bg"></div>
+  <div class="cta-wa-content" style="padding:6rem 5%">
+    <span class="cta-wa-eyebrow">🎁 Prima sessione gratuita</span>
+    <h2 class="cta-wa-title">Pronto a cambiare<br>il tuo corpo?</h2>
+    <p class="cta-wa-sub">Inizia con una <strong>sessione di prova gratuita</strong>. Scrivici su WhatsApp adesso: ti risponderemo in pochi minuti e troveremo insieme il percorso più adatto a te.</p>
+    <a href="https://wa.me/390819526132?text=Ciao!%20Vorrei%20prenotare%20la%20prova%20gratuita%20a%20Super%20Fitness%202016.%20Quando%20posso%20venire?" target="_blank" class="btn-wa">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Scrivici su WhatsApp
+    </a>
+    <p class="cta-wa-note">📞 Oppure chiamaci al <strong><a href="tel:+390819526132" style="color:#fff">081 1952 6132</a></strong> — disponibili tutti i giorni</p>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section id="contatti">
+  <div style="max-width:1200px;margin:0 auto 4rem">
+    <div class="section-eyebrow reveal">Dove siamo</div>
+    <h2 class="section-title reveal delay-1">Vieni a <span class="red">trovarci</span></h2>
+  </div>
+  <div class="contatti-grid">
+    <div class="contatti-info">
+      <div class="contact-item reveal delay-1">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Indirizzo</div>
+          <div class="contact-value">Via Gramsci 8, Ercolano (NA)</div>
+          <div class="contact-value" style="font-size:0.85rem;color:var(--gray)">Napoli, Campania — Italia</div>
+        </div>
+      </div>
+      <div class="contact-item reveal delay-2">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-label">Telefono</div>
+          <div class="contact-value"><a href="tel:+390819526132">081 1952 6132</a></div>
+        </div>
+      </div>
+      <div class="contact-item reveal delay-3">
+        <div class="contact-icon">💬</div>
+        <div>
+          <div class="contact-label">WhatsApp</div>
+          <div class="contact-value"><a href="https://wa.me/390819526132" target="_blank">Scrivici su WhatsApp →</a></div>
+        </div>
+      </div>
+      <div class="contact-item reveal delay-4">
+        <div class="contact-icon">🕐</div>
+        <div>
+          <div class="contact-label">Orari di apertura</div>
+          <div class="orari-grid">
+            <div class="orario-item"><span>Lun – Ven</span></div>
+            <div class="orario-item">07:00 – 22:00</div>
+            <div class="orario-item"><span>Sabato</span></div>
+            <div class="orario-item">08:00 – 20:00</div>
+            <div class="orario-item"><span>Domenica</span></div>
+            <div class="orario-item">09:00 – 13:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-container reveal delay-2">
+      <iframe
+        class="map-frame"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.3!2d14.3669!3d40.8063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b8c8b8b8b8b8b%3A0x0!2sVia+Antonio+Gramsci+8%2C+80056+Ercolano+NA!5e0!3m2!1sit!2sit!4v1"
+        allowfullscreen=""
+        loading="lazy"
+        title="Super Fitness 2016 - Via Gramsci 8, Ercolano"
+      ></iframe>
+      <div class="map-placeholder" style="position:absolute;bottom:0;left:0;right:0;background:rgba(8,8,8,0.85);padding:1rem;text-align:center">
+        <p class="map-address">Via Gramsci 8</p>
+        <p class="map-city">80056 Ercolano (NA)</p>
+        <a href="https://www.google.com/maps/search/Via+Gramsci+8+Ercolano+NA" target="_blank" class="map-link">Apri in Google Maps ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Super <span>Fitness</span> 2016</div>
+  <div class="footer-copy">© 2024 Super Fitness 2016 · Via Gramsci 8, Ercolano (NA) · P.IVA e info: 081 1952 6132</div>
+  <div class="footer-links">
+    <a href="#hero">Home</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#contatti">Contatti</a>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/390819526132?text=Ciao!%20Ho%20visitato%20il%20vostro%20sito%20e%20vorrei%20informazioni%20su%20Super%20Fitness%202016." target="_blank" class="wa-float" aria-label="Contattaci su WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script src="script.js"> </script>
+</body>
